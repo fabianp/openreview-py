@@ -29,9 +29,9 @@ def process_update(client, edge, invitation, existing_edge):
         subject=f'[{SHORT_PHRASE}] You have been assigned as a {GROUP_NAME} for paper number {note.number}'
         message=f'''This is to inform you that you have been assigned as a {GROUP_NAME} for paper number {note.number} for {SHORT_PHRASE}.
 
-To review this new assignment, please login to OpenReview and go to https://openreview.net/forum?id={note.forum}.
+To review this new assignment, please login to OpenReview and go to https://openreview.net/forum?id={note.forum}
 
-To check all of your assigned papers, go to https://openreview.net/group?id={GROUP_ID}.
+To check all of your assigned papers, go to https://openreview.net/group?id={GROUP_ID}
 
 Thank you,
 
